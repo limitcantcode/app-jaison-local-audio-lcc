@@ -1,0 +1,24 @@
+# Local audio player for jaison-core
+
+## Install dependencies
+
+Install [pytorch](https://pytorch.org/get-started/locally/)
+And everything else:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Setup environment variables
+
+1. Rename `.env-template` to `.env`
+2. Fill out fields in `.env`
+
+When you run the application, it will list all the possible devices (mic and speakers). Use these.
+For example, it lists `0: Microsoft Sound Mapper - Input` so I use `Microsoft Sound Mapper - Input`.
+
+## Usage
+
+```bash
+python ./src/main.py
+```

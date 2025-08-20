@@ -1,0 +1,5 @@
+silero-vad==5.1.2
+pyaudio==0.2.14
+python-dotenv>=1.0.1
+websockets==15.0.1
+requests==2.32.4
